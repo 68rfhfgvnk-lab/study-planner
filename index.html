@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>STUDY PLANNER | Organise ton année</title>
+<style>
+:root{--navy:#172c48;--beige:#d8c8aa;--cream:#f8f7f3}
+*{box-sizing:border-box}
+body{margin:0;background:var(--cream);color:#263344;font-family:Arial,sans-serif;line-height:1.6}
+header{padding:22px 7%;display:flex;justify-content:space-between;align-items:center;background:white}
+.logo{font-weight:900;letter-spacing:3px;color:var(--navy)}
+nav a{margin-left:20px;text-decoration:none;color:var(--navy);font-size:14px}
+.hero{padding:85px 8%;background:linear-gradient(120deg,#f8f7f3,#e9dfce);text-align:center}
+.tag{color:#927d5d;letter-spacing:3px;font-size:12px;font-weight:bold}
+h1{font:clamp(42px,8vw,68px)/1.1 Georgia,serif;color:var(--navy);margin:20px 0}
+.hero p{max-width:600px;margin:0 auto;color:#5d6875;font-size:18px}
+.btn{display:inline-block;background:var(--navy);color:white;padding:14px 25px;border-radius:6px;text-decoration:none;font-weight:bold;margin:22px 5px}
+.btn.light{background:transparent;color:var(--navy);border:1px solid var(--navy)}
+section{padding:65px 8%}
+h2{text-align:center;color:var(--navy);font:38px Georgia,serif;margin:0 0 15px}
+.intro{text-align:center;color:#687383;max-width:600px;margin:0 auto 35px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:white;border:1px solid #e8e2d7;border-radius:10px;padding:25px}
+.card h3{color:var(--navy);margin:8px 0}
+.card p{color:#687383;font-size:14px;margin:0}
+.symbol{font-size:25px;color:#9c8765}
+.product{background:var(--navy);color:white;text-align:center}
+.product h2{color:white}.product p{color:#d5dce5}
+.price{font:42px Georgia,serif;color:var(--beige);margin:20px}
+.product .btn{background:var(--beige);color:var(--navy)}
+.pages{max-width:750px;margin:30px auto;display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.page{background:white;color:var(--navy);padding:20px;border-radius:6px;text-align:left}
+.page strong{font:20px Georgia,serif}
+.page small{display:block;color:#927d5d;margin-bottom:8px}
+.steps{max-width:750px;margin:auto}
+.steps p{background:white;padding:18px;border-left:3px solid var(--beige);margin:12px 0}
+.faq{max-width:700px;margin:auto}
+details{padding:18px 0;border-bottom:1px solid #ddd}
+summary{cursor:pointer;color:var(--navy);font-weight:bold}
+footer{background:#101f33;color:white;text-align:center;padding:30px;font-size:13px}
+@media(max-width:650px){nav{display:none}.grid{grid-template-columns:1fr}.pages{grid-template-columns:1fr 1fr}.hero{padding:65px 6%}section{padding:50px 6%}}
+</style>
+</head>
+<body>
+<header><div class="logo">STUDY PLANNER.</div><nav><a href="#avantages">Avantages</a><a href="#produit">Le planner</a><a href="#faq">FAQ</a></nav></header>
+<main>
+<div class="hero"><div class="tag">L'ORGANISATION À PORTÉE DE MAIN</div><h1>Organise.<br>Apprends.<br>Réussis.</h1><p>Le planner étudiant minimaliste pour organiser tes cours, tes révisions, tes objectifs et ton budget.</p><a class="btn" href="#produit">Découvrir le planner</a><a class="btn light" href="#avantages">En savoir plus</a></div>
+<section id="avantages"><h2>Tout au même endroit.</h2><p class="intro">12 pages pratiques pour construire une organisation qui te ressemble.</p><div class="grid">
+<div class="card"><div class="symbol">▦</div><h3>Emploi du temps</h3><p>Visualise ta semaine et tes rendez-vous.</p></div>
+<div class="card"><div class="symbol">✎</div><h3>Révisions</h3><p>Planifie tes séances et prépare tes examens.</p></div>
+<div class="card"><div class="symbol">◎</div><h3>Objectifs</h3><p>Garde le cap sur tes priorités.</p></div>
+<div class="card"><div class="symbol">€</div><h3>Budget étudiant</h3><p>Note tes revenus et tes dépenses.</p></div>
+<div class="card"><div class="symbol">☷</div><h3>To-do list</h3><p>Organise tes tâches quotidiennes.</p></div>
+<div class="card"><div class="symbol">✧</div><h3>Bilan mensuel</h3><p>Observe tes progrès et prépare la suite.</p></div>
+</div></section>
+<section class="product" id="produit"><h2>Ton Study Planner.</h2><p>Un kit numérique de 12 pages au format A4.</p><div class="pages">
+<div class="page"><small>01 — ORGANISATION</small><strong>Emploi du temps</strong></div>
+<div class="page"><small>02 — CALENDRIER</small><strong>Mon mois</strong></div>
+<div class="page"><small>03 — ÉTUDES</small><strong>Mes devoirs</strong></div>
+<div class="page"><small>04 — EXAMENS</small><strong>Mes révisions</strong></div>
+<div class="page"><small>05 — OBJECTIFS</small><strong>Mes habitudes</strong></div>
+<div class="page"><small>06 — PERSONNEL</small><strong>Mon budget</strong></div>
+</div><div class="price">4,90 €</div><p>Prix de lancement envisagé</p><a class="btn" href="#contact">Bientôt disponible</a></section>
+<section><h2>Comment ça marche ?</h2><div class="steps"><p><strong>01.</strong> Découvre le planner et ses 12 pages.</p><p><strong>02.</strong> Achète-le lorsque la boutique sera ouverte.</p><p><strong>03.</strong> Télécharge ton PDF et organise ton année.</p></div></section>
+<section id="faq"><h2>Questions fréquentes</h2><div class="faq"><details><summary>Quel est le format ?</summary><p>Un document PDF au format A4.</p></details><details><summary>Est-ce un produit physique ?</summary><p>Non, il s'agit d'un produit numérique.</p></details><details><summary>Est-il disponible ?</summary><p>La boutique est en préparation. Les paiements ne sont pas encore activés.</p></details></div></section>
+<section id="contact" style="text-align:center;background:#e9dfce"><h2>Prêt à mieux t'organiser ?</h2><p>Study Planner arrive bientôt.</p></section>
+</main>
+<footer>STUDY PLANNER · Organise. Apprends. Réussis. · © 2026</footer>
+</body></html>
